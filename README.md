@@ -16,7 +16,7 @@ Implemented CRUD operations, including adding, updating, and deleting customer r
 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-![product management](https://github.com/mohamedsamir200/Product-Management-System/assets/105426114/70e171de-c4a7-41c0-9fa6-1926b6784f2b)
+![product management](https://github.com/mohamedsamir200/Product-Management-System/assets/105426114/d0c0b61f-d4d0-4afe-aee7-68a13da45ecb)
 
 
 
