@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD PROJECT</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <i class="fa-solid fa-moon"></i>
+      <svg
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fas"
+        data-icon="sun-bright"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+        class="svg-inline--fa fa-sun-bright fa-fw fa-xl"
+      >
+        <path
+          fill="currentColor"
+          d="M256 0c-13.3 0-24 10.7-24 24V88c0 13.3 10.7 24 24 24s24-10.7 24-24V24c0-13.3-10.7-24-24-24zm0 400c-13.3 0-24 10.7-24 24v64c0 13.3 10.7 24 24 24s24-10.7 24-24V424c0-13.3-10.7-24-24-24zM488 280c13.3 0 24-10.7 24-24s-10.7-24-24-24H424c-13.3 0-24 10.7-24 24s10.7 24 24 24h64zM112 256c0-13.3-10.7-24-24-24H24c-13.3 0-24 10.7-24 24s10.7 24 24 24H88c13.3 0 24-10.7 24-24zM437 108.9c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-45.3 45.3c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0L437 108.9zM154.2 357.8c-9.4-9.4-24.6-9.4-33.9 0L75 403.1c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l45.3-45.3c9.4-9.4 9.4-24.6 0-33.9zM403.1 437c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-45.3-45.3c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9L403.1 437zM154.2 154.2c9.4-9.4 9.4-24.6 0-33.9L108.9 75c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l45.3 45.3c9.4 9.4 24.6 9.4 33.9 0zM256 368a112 112 0 1 0 0-224 112 112 0 1 0 0 224z"
+          class=""
+        ></path>
+      </svg>
+
+      <h1>Product Management System</h1>
+
+      <div class="form">
+        <label for="ProductName">Product Name :</label>
+        <input class="input" type="text" name="ProductName" id="productName" />
+
+        <label for="ProductPrice">Product Price :</label>
+        <input
+          class="input"
+          type="number"
+          name="ProductPrice"
+          id="productPrice"
+        />
+
+        <label for="ProductCategory">Product Category :</label>
+        <input
+          class="input"
+          type="text"
+          name="ProductCategory"
+          id="productCategory"
+        />
+
+        <label for="ProductDesc">Product Desc :</label>
+        <textarea class="input" name="ProductDesc" id="productDesc"></textarea>
+
+        <button type="submit">Add Product</button>
+
+        <button type="submit" class="update">Update Product</button>
+      </div>
+
+      <div class="search">
+        <div>
+          <label for="search">search by product name :</label>
+          <input
+            class="form-control mt-4 w-100 mx-auto"
+            type="text"
+            name=""
+            id="search"
+          />
+        </div>
+
+        <div>
+          <label for="search">search by product category :</label>
+          <input
+            class="form-control mt-4 w-100 mx-auto"
+            type="text"
+            name=""
+            id="search"
+          />
+        </div>
+      </div>
+
+      <table class="table mt-5 text-center">
+        <thead >
+          <th>Product NO.</th>
+          <th>product Name</th>
+          <th>product Price</th>
+          <th>product Category</th>
+          <th>product Desc</th>
+          <th>Update</th>
+          <th>Delete</th>
+        </thead>
+
+        <tbody id="tableBody">
+          
+        </tbody>
+      </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

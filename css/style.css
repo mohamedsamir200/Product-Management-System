@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "segoe ui light";
+
+}
+
+
+
+.container {
+    max-width: 90%;
+    margin: auto;
+    padding: 5px;
+    background-color: #eee;
+
+}
+
+.form label {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form textarea {
+    resize: vertical;
+}
+
+.form input:focus {
+    border: 1px solid lightblue;
+}
+
+.form button {
+    background-color: #138496;
+    padding: 15px 25px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.update {
+    background-color: rgb(0, 60, 255) !important;
+    display: none;
+
+}
+
+.search {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5px;
+    text-align: center;
+}
+
+/* ********** Dark Mode *********** */
+.container i,
+.container svg {
+    float: right;
+    font-size: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.container i {}
+
+
+.container svg {
+    display: none;
+}
+
